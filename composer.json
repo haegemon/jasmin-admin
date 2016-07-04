@@ -1,0 +1,22 @@
+{
+  "name": "haegemon/jasmin-admin",
+  "version": "0.1",
+  "description": "Administrator panel for jasmin-sms gateway",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Pawel Samysev",
+      "email": "pawel.samysev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "haegemon/jasmin-web": "dev-master",
+    "frozennode/administrator": "5.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.1.*"
+  }
+}
